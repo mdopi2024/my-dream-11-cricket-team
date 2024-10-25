@@ -1,6 +1,7 @@
 import banner from '../../public/img/banner-main.png'
 import bannerBg from '../../public/img/bg-shadow.png'
 
+
 const Banner = ({handleFreeCreadit}) => {
     return (
         <div className='border  container mx-auto p-9 bg-black rounded-xl my-10' style={{backgroundImage:`url(${bannerBg})`, backgroundSize:'cover', backgroundRepeat:'no-repeat'}}>
