@@ -1,5 +1,10 @@
 # BPL-DREAM 11
-- link here
+## https://teal-granita-77f49e.netlify.app
+
+## Technologies used.
+-React libery,
+-React toastify,
+-Daisy UI
 
 ## Brief description
 ### Welcome to our Ultimate Dream11 Cricket Team! Choose your favorite cricketers and create your best cricket team here.
