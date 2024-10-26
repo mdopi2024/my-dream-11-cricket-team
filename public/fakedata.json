@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Virat Kohli",
+      "type": "Batsman",
+      "handedness": "Right-handed",
+      "price": 1200000,
+      "country": "India",
+      "image": "https://i.ibb.co.com/y08q38D/virat-kohli.webp"
+    },
+    {
+      "id": 2,
+      "name": "Ben Stokes",
+      "type": "Allrounder",
+      "handedness": "Left-handed",
+      "price": 1500000,
+      "country": "England",
+      "image": "https://i.ibb.co.com/71tMqf2/ben-stock.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Kane Williamson",
+      "type": "Batsman",
+      "handedness": "Right-handed",
+      "price": 1300000,
+      "country": "New Zealand",
+      "image": "https://i.ibb.co.com/gTM35J2/williamson.webp"
+    },
+    {
+      "id": 4,
+      "name": "Mitchell Starc",
+      "type": "Bowler",
+      "handedness": "Left-handed",
+      "price": 1100000,
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/87HRG8L/michel-Strark.webp"
+    },
+    {
+      "id": 5,
+      "name": "Shakib Al Hasan",
+      "type": "Allrounder",
+      "handedness": "Left-handed",
+      "price": 1250000,
+      "country": "Bangladesh",
+      "image": "https://i.ibb.co.com/RDDTNFp/sakib-all-hasan.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Jasprit Bumrah",
+      "type": "Bowler",
+      "handedness": "Right-handed",
+      "price": 1150000,
+      "country": "India",
+      "image": "https://i.ibb.co.com/zZg94JF/jaspit-bumra.webp"
+    }
+   
+  ]
+  
