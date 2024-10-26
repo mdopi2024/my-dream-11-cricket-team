@@ -43,6 +43,13 @@ const [adddedPlayer, setAddedplayer]=useState([])
     }
   }
   
+const handleDeleteButton =(player)=>{
+
+const deletPlayer = adddedPlayer.filter(p => p.id != player.id)
+toast.success(`${player.name} is deleted from select list`)
+setAddedplayer(deletPlayer)
+setFreeCredit(freeCredit + player.price)
+}
 
   return (
     <>
@@ -52,7 +59,7 @@ const [adddedPlayer, setAddedplayer]=useState([])
      <Banner handleFreeCreadit={handleFreeCreadit}></Banner>
      <Button handleButton={handleButton} buttonBalue={buttonBalue} adddedPlayer={adddedPlayer}></Button>
      {
-      buttonBalue?<Players handleAddedPlayer={handleAddedPlayer}></Players>:<Player adddedPlayer={adddedPlayer}></Player>
+      buttonBalue?<Players handleAddedPlayer={handleAddedPlayer}></Players>:<Player adddedPlayer={adddedPlayer} handleDeleteButton={handleDeleteButton}></Player>
      }
     </>
   )

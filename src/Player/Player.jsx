@@ -1,6 +1,6 @@
 
 
-const Player = ({adddedPlayer}) => {
+const Player = ({adddedPlayer,handleDeleteButton}) => {
   
     return (
         <div >
@@ -23,7 +23,7 @@ const Player = ({adddedPlayer}) => {
                         </div>
                     </div>
                       
-                      <div><button><i class="fa-regular fa-trash-can text-2xl text-red-600"></i></button></div>
+                      <div><button onClick={()=>handleDeleteButton(seletedPlayer)}><i class="fa-regular fa-trash-can text-2xl text-red-600"></i></button></div>
 
                    </div>
 
