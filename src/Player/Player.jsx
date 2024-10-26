@@ -1,6 +1,6 @@
 
 
-const Player = ({adddedPlayer,handleDeleteButton}) => {
+const Player = ({adddedPlayer,handleDeleteButton,handleButton}) => {
   
     return (
         <div >
@@ -29,6 +29,7 @@ const Player = ({adddedPlayer,handleDeleteButton}) => {
 
                 </div>)
             }
+            <button onClick={()=>handleButton(true)} className="btn  bg-[#E7FE29] ml-5 mb-7 mt-4 md:ml-12 ">Add More Player</button>
         </div>
     );
 };

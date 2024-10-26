@@ -59,7 +59,7 @@ setFreeCredit(freeCredit + player.price)
      <Banner handleFreeCreadit={handleFreeCreadit}></Banner>
      <Button handleButton={handleButton} buttonBalue={buttonBalue} adddedPlayer={adddedPlayer}></Button>
      {
-      buttonBalue?<Players handleAddedPlayer={handleAddedPlayer}></Players>:<Player adddedPlayer={adddedPlayer} handleDeleteButton={handleDeleteButton}></Player>
+      buttonBalue?<Players handleAddedPlayer={handleAddedPlayer}></Players>:<Player adddedPlayer={adddedPlayer} handleDeleteButton={handleDeleteButton}  handleButton={handleButton}></Player>
      }
     </>
   )
