@@ -7,7 +7,7 @@ const Players = ({handleAddedPlayer}) => {
 
     const [playes, setlPlayers]=useState([])
     useEffect(()=>{
-        fetch('../../public/fakedata.json')
+        fetch('fakedata.json')
         .then(res=>res.json())
         .then(data=>setlPlayers(data))
     },[])
