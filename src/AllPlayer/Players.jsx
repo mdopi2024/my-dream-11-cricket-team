@@ -12,7 +12,7 @@ const Players = ({handleAddedPlayer}) => {
         .then(data=>setlPlayers(data))
     },[])
     return (
-        <div className='container mx-auto border grid gap-7 md:grid-cols-3'>
+        <div className='container mx-auto  grid gap-7 md:grid-cols-3'>
           {
             playes.map((player,indx)=><DisplayPlayer 
             key={indx}
